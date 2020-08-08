@@ -1,0 +1,184 @@
+body {
+  font-family: Montserrat;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+/* CONTAINER SECTION */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.brand-logo {
+  color: #000;
+}
+
+.big-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* NAVBAR SECTION*/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+  /* font-weight: 300; */
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight:500;
+}
+/* DOWNLOAD BUTTON */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+/* TITLE SECTION */
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid { 
+  padding: 3% 15% 7%;
+}
+
+.title-img {
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+  /* ALTERNATIVE WAY */
+  /* -webkit-transform: rotate(10deg);
+      -moz-transform: rotate(10deg);
+      -o-transform: rotate(10deg);
+      -ms-transform: rotate(10deg);
+      transform: rotate(10deg); */
+}
+/* FEATURE SECTION */
+#features {
+  background-color: #fff;
+  padding: 10% 3% 5%;
+  position: relative;
+  /* z-index: 1; */
+}
+.feature-box{
+  text-align: center;
+  padding: 4.5%;
+}
+.feature-title{
+font-size: 1.5rem;
+}
+.feature-icon {
+  color: #ef8172;
+  margin: 1rem;
+}
+
+.feature-icon:hover {
+  /* applying hover on feature icons class */
+  color: #ff4c48;
+}
+
+/* TESTIMONIALS SECTION */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  line-height: 3.5rem;
+  line-height: 1.5;
+  /* font-weight: normal; */
+  /* margin-bottom: 10%; */
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* PRESS SECTION */
+#press {
+  padding-bottom: 5%;
+  background-color: #ef8172;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* PRICING SECTION */
+#pricing {
+  padding: 100px;
+}
+.card-title{
+    font-size: 1.5rem;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text{
+font-size: 3rem;
+line-height: 1.5;
+}
+/* CTA SECTION */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#footer {
+  color: #fff;
+}
+
+.footer-link {
+  padding: 0 2%;
+  color: #000;
+}
+/* REPONSIVENESS */
+@media(max-width:1028px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .testimonial-text {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+
+  .testimonial-image {
+    width: 20%;
+  }
+
+  .press-logo {
+    width: 25%;
+    margin: 20px 20px 50px;
+  }
+}
